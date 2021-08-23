@@ -13,11 +13,12 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Good things',
         link: '/good-things/',
+        children: ['/good-things/git-help.md', '/good-things/svg-tools.md'],
       },
       // NavbarGroup
       {
-        text: 'Group',
-        children: ['/group/foo.md', '/group/bar.md'],
+        text: 'Other things',
+        children: ['/other-things/cook-things.md'],
       }
     ]
   }

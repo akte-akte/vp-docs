@@ -32,6 +32,7 @@ export default {
         { name: 'Have a coffee', id: 3 },
         { name: 'Configure markdown linting to stop complining about inline html', id: 4 },
         { name: 'Fix the colour contrast on this element when being dragged in dark :moon: mode', id: 5 },
+        { name: 'Add dynamic routes because manully adding pages to the nav is tedious', id: 3 },
 
       ],
       dragging: false

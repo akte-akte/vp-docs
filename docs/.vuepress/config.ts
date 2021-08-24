@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import { path } from '@vuepress/utils'
 
 export default defineUserConfig<DefaultThemeOptions>({
   lang: 'en-AU',
@@ -13,7 +14,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Good things',
         link: '/good-things/',
-        children: ['/good-things/git-help.md', '/good-things/svg-tools.md'],
+        children: ['/good-things/git-help.md', '/good-things/svg-tools.md', '/good-things/drag-drop.md'],
       },
       // NavbarGroup
       {
@@ -21,5 +22,13 @@ export default defineUserConfig<DefaultThemeOptions>({
         children: ['/other-things/cook-things.md'],
       }
     ]
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-register-components',
+      {
+        componentsDir: path.resolve(__dirname, './components'),
+      }
+    ]
+  ]
 })

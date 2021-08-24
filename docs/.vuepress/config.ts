@@ -27,6 +27,27 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         componentsDir: path.resolve(__dirname, './components')
       }
+    ],
+    [
+      require("vuepress-frontmatter-lint"),
+      { // Whether to abort the site build if front matter doesn't
+        // validate against the following rules.
+        abortBuild: true,
+        specs: {
+          title: {
+            type: String,
+            required: true
+          },
+          lang: {
+            type: Number,
+            required: false
+          },
+          description: {
+            type: String,
+            required: false
+          }
+        }
+      }
     ]
   ]
 })

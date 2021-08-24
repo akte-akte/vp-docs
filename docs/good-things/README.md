@@ -1,7 +1,7 @@
 ---
 lang: en-AU
 title: Good things
-description: Things I think are good
+description: Dev things I think are good
 ---
 
 # Good things :balloon:

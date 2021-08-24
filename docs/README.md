@@ -1,3 +1,9 @@
+---
+lang: en-AU
+title: Docs home
+description: Welcome to this site
+---
+
 # Hello Docs :wave:
 
 This is made with VuePress. I've been a fan for a while.

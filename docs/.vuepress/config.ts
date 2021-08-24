@@ -10,16 +10,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
     navbar: [
-      // NavbarItem
       {
         text: 'Good things',
         link: '/good-things/',
-        children: ['/good-things/git-help.md', '/good-things/svg-tools.md', '/good-things/drag-drop.md'],
+        children: ['/good-things/git-help.md', '/good-things/svg-tools.md', '/good-things/drag-drop.md']
       },
-      // NavbarGroup
       {
         text: 'Other things',
-        children: ['/other-things/cook-things.md'],
+        children: ['/other-things/cook-things.md']
       }
     ]
   },
@@ -27,7 +25,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     [
       '@vuepress/plugin-register-components',
       {
-        componentsDir: path.resolve(__dirname, './components'),
+        componentsDir: path.resolve(__dirname, './components')
       }
     ]
   ]

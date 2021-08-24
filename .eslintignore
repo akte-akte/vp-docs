@@ -1,0 +1,4 @@
+docs/.vuepress/**/*.html
+docs/.vuepress/dist/**/*
+docs/.vuepress/**/*.scss
+

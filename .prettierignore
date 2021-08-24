@@ -1,0 +1,3 @@
+docs/.vuepress/public/**/*
+docs/.vuepress/**/*.html
+docs/.vuepress/dist/**/*

@@ -2,3 +2,4 @@ node_modules
 .temp
 .cache
 .vscode/spellright.dict
+docs/.vuepress/dist/

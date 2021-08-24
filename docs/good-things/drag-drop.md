@@ -1,7 +1,5 @@
-# drag and drop
+# Embedding components - drag and drop
 
-there should be a component here:
+This markdown file contains a vue component, which contains a JS drag & drop library :crossed_fingers:
 
 <DragDrop></DragDrop>
-
-:crossed_fingers:

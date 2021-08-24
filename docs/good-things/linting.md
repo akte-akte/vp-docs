@@ -6,7 +6,7 @@ description: The linters used on this project
 
 # Linting
 
-There are multiple code few formats on this site, which can get messy, and things break if you let formatters run wild. By adding and configuring some extra linters, we can keep the code tidy and limit the red and yellow squiggly lines to where it counts.
+There are multiple programming languages on this site, which can get messy, and things break if you let formatters run wild. By adding and configuring some extra linters, we can keep the code tidy and limit the red and yellow squiggly lines to where it counts.
 
 ## Vue linting
 
@@ -49,7 +49,7 @@ plugins: [
           required: true,
         },
         lang: {
-          type: Number,
+          type: String,
           required: false,
         },
         description: {

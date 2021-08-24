@@ -39,7 +39,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             required: true
           },
           lang: {
-            type: Number,
+            type: String,
             required: false
           },
           description: {

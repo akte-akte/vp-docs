@@ -66,4 +66,14 @@ plugins: [
 :::
 ::::
 
-## TODO: markdown linting
+## Markdown linting
+
+[https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
+```json
+{
+  "default": true,
+  "no-hard-tabs": false,
+  "no-inline-html": false
+}
+```

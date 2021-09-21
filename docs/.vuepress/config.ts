@@ -13,7 +13,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       {
         text: 'Good things',
         link: '/good-things/',
-        children: ['/good-things/git-help.md', '/good-things/svg-tools.md', '/good-things/drag-drop.md', '/good-things/linting.md']
+        children: ['/good-things/git-help.md', '/good-things/svg-tools.md', '/good-things/drag-drop.md', '/good-things/linting.md', '/good-things/a11y.md']
       },
       {
         text: 'Other things',
